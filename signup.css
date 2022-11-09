@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.rectangle2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height: 133%;
+
+    background: url('images/Rectangle\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 76px;
+}
+#rectangle31{
+    margin-left: 18%;
+    margin-top: 23%;
+    width: 40%;
+    height: 50%;
+}
+.copyright{
+    margin-left: 30%;
+    margin-top: 30%;
+    width: fit-content;
+    height: fit-content;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #474747;
+
+    text-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+}
+.rectangle3{
+    position: absolute;
+    width: 61.5%;
+    height: 133vh;
+    left: 519px;
+
+    background: #94DBF0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 76px;
+}
+#signup{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 52px;
+    top: -1rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #153453;
+}
+.details{
+    margin: 8.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6.5%;
+    padding: 0;
+    width: 90%;
+    height: fit-content;
+}
+.details-container{
+    width: fit-content;
+    height: fit-content;
+}
+#first-name-text, #last-name-text, #phone-number-text, #role-text, #address-text
+, #shipping-address-text, #username-text, #password-text, #confirm-password-text, #company-name-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #4F6479;
+}
+#first-name-input{
+    margin-top: -.5rem;
+    width: 20.9rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#last-name-input{
+    margin-top: -5rem;
+    width: 20.9rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.phone-number{
+    margin-top: -.5rem;
+}
+#phone-number-input{
+    margin-top: -.5rem;
+    width: 20.9rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.radio-buttons{
+    margin-top: 1.8rem;
+}
+input[type=radio]{
+    box-sizing: border-box;
+    accent-color: #4F6479;
+
+    width: 18px;
+    height: 18px;
+}
+#label-radio-residences, #label-radio-mall{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 0px;
+
+    color: #4F6479;
+}
+.company-name{
+    margin-top: -.8rem;
+}
+#company-name-input{
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
+    width: 44rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.address{
+    margin-top: -.5rem;
+}
+#address-input{
+    margin-top: -.5rem;
+    width: 44rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.shipping-address{
+    margin-top: -.5rem;
+}
+#shipping-address-input{
+    margin-top: -.5rem;
+    width: 44rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.username{
+    margin-top: -.5rem;
+}
+#username-input{
+    margin-top: -.5rem;
+    width: 44rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.password{
+    margin-top: -.5rem;  
+}
+#password-input{
+    margin-top: -.5rem;
+    width: 44rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.confirm-password{
+    margin-top: -.5rem;
+}
+#confirm-password-input{
+    margin-top: -.5rem;
+    width: 44rem;
+    height: 40%;
+    padding: 0 10px 0 10px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.details input{
+    font-family: 'inter';
+    font-weight: bolder;
+    border: none;
+}
+input[type=submit]{
+    margin-top: 2rem;
+    width: 45.25rem;
+    height: 47px;
+    background: #1C5488;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
